@@ -13,7 +13,7 @@ volume = engine.getProperty('volume')  # Volume level (0.0 to 1.0)
 engine.setProperty('volume', volume+0.25)  # Increase volume by 25%
 
 
-engine.say("Reduce your voice")
+engine.say("Hello Everyone")
 engine.runAndWait() #Block while processing all the currently queued commands
 
 
